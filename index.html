@@ -93,39 +93,38 @@
             </section>
         </div> <!--.servicios-->
     
-        </main>
-        
         <section>
             <h2>Contacto</h2>
-            <form>
+
+            <form class="formulario">
                 <fieldset>
-                    <legend>Contactanos</legend>
+                    <legend>Contactános llenando todos los campos</legend>
 
-                    <div>
-                        <legend>Contactanos</legend>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Tu nombre">
-                    </div>
-                    
-                    <div>
-                        <label>Telefono</label>
-                        <input type="tel" placeholder="Tu telefono">
-                    </div>
-                    
-                    <div>
-                        <label>Correo</label>
-                        <input type="email" placeholder="Tu correo">
-                    </div>
-                    
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
-                    </div>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
 
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
                 
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
                 </fieldset>
             </form>
         </section>
