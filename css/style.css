@@ -158,8 +158,6 @@ h1,h2,h3 {
     align-items: flex-end;
 }
 
-
-
 /** Servicios **/
 @media (min-width: 768px) {
     .servicios {
