@@ -29,14 +29,14 @@ body {
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% );
 }
 .contenedor {
-    max-width: 120rem;
+    max-width: 100rem;
     margin: 0 auto;
 }
 .boton {
     background-color: var(--secundario);
     color: var(--blanco);
     padding: 1rem 3rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     font-size: 2rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -53,6 +53,10 @@ body {
 }
 .boton:hover {
     cursor: pointer;
+}
+
+.enviar .boton{
+    width: 100%;
 }
 
 .sombra {
@@ -75,7 +79,6 @@ h3 {
 h1,h2,h3 {
     text-align: center;
 }
-
 
 /* Titulos */
 .titulo span {
@@ -109,7 +112,7 @@ h1,h2,h3 {
 @media (min-width: 768px) {
     .navegacion-principal {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
 
@@ -120,7 +123,7 @@ h1,h2,h3 {
     text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
-    padding: 1rem;
+    padding: 2rem;
 }
 .navegacion-principal a:hover {
     background-color: var(--primario);
@@ -243,6 +246,7 @@ h1,h2,h3 {
     padding: 1.5rem;
     border-radius: .5rem;
 }
+
 
 /** Footer **/
 .footer {
